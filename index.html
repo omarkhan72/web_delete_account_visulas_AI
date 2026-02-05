@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/iconImage.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="./src/constants/index.ts"></script>
+  <!-- Use JavaScript to set the title dynamically -->
+  <script type="module">
+    import { APP_TITLE } from "./src/constants/index";
+    document.title = APP_TITLE;
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

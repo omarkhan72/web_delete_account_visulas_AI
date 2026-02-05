@@ -1,0 +1,29 @@
+.terms-condition-ul{
+    position: absolute;
+    /* bottom: -50px; */
+    display: flex;
+    list-style: none;
+    margin: 0 -16px;
+    padding: 0;
+    bottom: -57px;
+    width: 92%;
+    justify-content: space-between;
+}
+.terms-condition-ul li{
+    align-items: flex-start;
+    display: flex;
+    margin: 0;
+}
+.terms-condition-ul a{
+    border-radius: 4px;
+    color: rgb(60,64,67);
+    outline: none;
+    padding: 29px 0px !important;
+    text-decoration: none;
+}
+#link-terms{
+    padding: 29px 0px 29px 12px !important;
+}
+#link-policy{
+    padding: 29px 12px 29px 0px !important;
+}

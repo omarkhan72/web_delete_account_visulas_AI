@@ -1,0 +1,5 @@
+export {default as GoogleBtn} from "./GoogleBtn"
+export {default as DeleteConfirmation} from "./DeleteConfirmation"
+export {default as Loader} from "./Loader"
+export {default as TermsAndPolicy} from "./TermsAndPolicy"
+export {default as AlertText} from "./AlertText"

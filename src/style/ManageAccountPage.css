@@ -1,0 +1,28 @@
+div{
+    font-weight: 400 ;
+}
+
+.manage-account-btn {
+    background-color: #f52811; 
+    border: 2px solid #e74c3c;
+    color: #fff;
+    padding: 7px 20px; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; 
+    margin-top: 40px;
+    
+    &:hover {
+        background-color: #c0392b; /* Darker red on hover */
+    }
+}
+
+.manage-account-cancel-btn{
+    background-color: transparent;
+    color: red;
+    &:hover {
+        background-color: #c03a2b28 !important;
+        color: rgb(255, 0, 0) !important;
+    }
+  }
